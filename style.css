@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20231228/pngtree-seamless-vector-texture-golden-coins-and-green-dollar-banknotes-falling-in-image_13919138.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 80vh;
+}
+.container{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.132);
+    backdrop-filter: blur(60px);
+    padding: 20px;
+    border-radius: 20px;
+}
+img{
+    max-width: 150px;
+}
+h1{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.233);
+    backdrop-filter: blur(60px);
+    padding: 20px;
+    border-radius: 20px;
+}
+.currency{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.currency select{
+    padding: 10px;
+    padding-right: 20px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    color: white;
+}
+.currency select option {
+    color: black;
+}
+.currency input {
+    font-size: 30px;
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    outline: none;
+    color: white;
+}
+.swap{
+    color: green;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 20px;
+    border:  none;
+    padding: 10px 30px;
+    cursor: pointer;
+    text-transform: capitalize;
+
+}
+.swap-rate-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rate{
+    color: white;
+}

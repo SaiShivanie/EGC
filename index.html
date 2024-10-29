@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img src="https://play-lh.googleusercontent.com/ShlKAWkcTkNjSodomL8ZKsU9FvkLu3Qy6basD_IN8W0Yn6JfDSLP8Q0nfVX0Vh51Y1w" alt="" />
+    <h1>Exchange rate calculator</h1>
+    <div class="container">
+        <div class="currency">
+            <select id="currency-one">
+                <option value="USD" selected >USD</option>
+                <option value="INR"  >INR</option>
+                <option value="ALL"  >ALL</option>
+                <option value="SLE"  >SLE</option>
+            </select>
+            <input type="number" id="amount-one" value="1" />
+        </div>
+        <div class="swap-rate-container">
+            <button id="swap" class="swap">swap</button>
+            <span id="rate" class="rate"></span>
+
+        </div>
+        <div class="currency">
+            <select id="currency-two">
+                <option value="USD"  >USD</option>
+                <option value="INR" selected >INR</option>
+                <option value="ALL"  >ALL</option>
+                <option value="SLE"  >SLE</option>
+            </select>
+            <input type="number" id="amount-two" value="1" />
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
