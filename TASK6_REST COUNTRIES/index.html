@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>REST API</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> <!-- Ensure JS is deferred until the DOM is loaded -->
+  </head>
+  <body>
+    <header>
+      <h1>Where in the world?</h1>
+      <button onclick="Toggle()" class="toggle-btn">Toggle dark mode</button>
+    </header>
+    
+    <!-- Search Box -->
+    <div class="input-box">
+      <input type="text" id="searchInput" placeholder="Search for a country..."/>
+      <button class="button" onclick="handleSearch()">Search</button>
+    </div>
+
+    <!-- Region Filter -->
+    <div class="dropdown">
+      <button onclick="filter()" class="dropbtn">Filter by Region</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#" onclick="handleFilter('Africa')" data-region="Africa">Africa</a>
+        <a href="#" onclick="handleFilter('Asia')" data-region="Asia">Asia</a>
+        <a href="#" onclick="handleFilter('Europe')" data-region="Europe">Europe</a>
+        <a href="#" onclick="handleFilter('Oceania')" data-region="Oceania">Oceania</a>
+        <a href="#" onclick="handleFilter('Americas')" data-region="Americas">Americas</a>
+      </div>
+    </div>
+
+    <!-- Main Content Area to Display Country Cards -->
+    <main id="countries-container"></main>
+  </body>
+</html>

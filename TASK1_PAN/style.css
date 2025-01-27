@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  .navbar {
+    background-color: #f1f1f1;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+  }
+  .navbar ol li {
+    display: inline;
+  }
+  .navbar a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  td {
+    padding: 10px;
+    vertical-align: top;
+  }
+  label {
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="date"],
+  textarea,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+  }
+  textarea {
+    resize: none;
+  }
+  .upload {
+    margin-top: 5px;
+  }
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  @media (max-width: 768px) {
+    .navbar ol {
+      flex-direction: column;
+      gap: 10px;
+    }
+    form {
+      padding: 15px;
+    }
+    td {
+      display: block;
+      width: 100%;
+    }
+  }

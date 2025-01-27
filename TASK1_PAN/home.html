@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale:1.0">
+        <title>PAN CARD FORM</title>
+        <link rel="stylesheet" href="style.css">
+     </head>
+     <body>
+        <header>
+            <h2>Request for NEW PAN CARD or changes in PAN CARD</h2>
+        </header>
+        <nav class="navbar">
+            <ol>
+                <li>
+                    <a href="#home">Home</a>
+                </li>
+                <li>
+                    <a href="https://www.bankbazaar.com/pan-card/customer-care-number.html" target="_blank">Need Help?</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/watch?v=3nYFlxPubjY" target="_blank"> How to apply for PAN-CARD </a>
+                </li>
+            </ol>
+        </nav>
+        <table class="table" id="home">
+            <tbody>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Whether citizen of india:</label>
+                    </td>
+                    <td colspan="6">
+                        <input name="india" type="radio">
+                        <label>yes</label>
+                        <input name="india" type="radio">
+                        <label>no</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Permanent Account Number(PAN)</label>
+                    </td>
+                  <td colspan="6">
+                    <input class="pan_number" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td rowspan="4">
+                        <input type="checkbox">
+                    </td>
+                    <td rowspan="4">
+                        <label>Name</label>
+                    </td>
+                  <td colspan="6">
+                    <input type="radio" name="name">
+                    <label>Sri/Mr</label>
+                    <input type="radio" name="name">
+                    <label>Sri/Mrs</label>
+                    <input type="radio" name="name">
+                    <label>Kunari/Ms</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="First Name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Middle Name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Last Name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td colspan>
+                        <label>Name you wanted to be printed in the pancard</label>
+                    </td>
+                  <td colspan="6">
+                    <input class="name" type="text">
+                    </td>
+                <tr>
+                    <td rowspan="4">
+                        <input type="checkbox">
+                    </td>
+                    <td rowspan="4">
+                        <label>Father's Name</label>
+                    </td>
+                    <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="First Name" type="text">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Middle Name" type="text">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Last Name" type="text">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td rowspan="4">
+                        <input type="checkbox">
+                    </td>
+                    <td rowspan="4">
+                        <label>Mother's Name</label>
+                    </td>
+                    <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="First Name" type="text">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Middle Name" type="text">
+                    </td>
+                   </tr>
+                   <tr>
+                    <td colspan="6">
+                        <input class="name" placeholder="Last Name" type="text">
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td colspan>
+                        <label>Select which parent to be printed in PAN CARD</label>
+                    </td>
+                    <td colspan="7">
+                        <input type="radio" name="parent">
+                        <label>Father Name</label>
+                        <input type="radio" name="name">
+                        <label>Mother Name</label> 
+                    </td>
+                  </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Date of Birth:</label>
+                    </td>
+                    <td colspan="7">
+                        <input class="dob" type="date">
+                    </td>
+                    <tr>
+                        <td>
+                            <input type="checkbox">
+                        </td>
+                        <td>
+                            <label>Gender</label>
+                        </td>
+                        <td colspan="7">
+                            <input name="gender" type="radio">
+                            <label>Male</label>
+                            <input name="gender" type="radio">
+                            <label>Female</label>
+                            <input name="gender" type="radio">
+                            <label>Transgender</label>
+                        </td>
+                    </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Address for communication</label>
+                    </td>
+                    <td colspan="6">
+                        <input name="address" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>State/Union Territory</label>
+                    </td>
+                   <td>
+                      <select style="width:100%;">
+                      <option>Please select the state</option>
+                      <option value="TamilNadu">TamilNadu</option>
+                      <option value="AndhraPradesh">AndhraPradesh</option>
+                      <option value="Gujarat">Gujarat</option>
+                      <option value="Karnataka">Karnataka</option>
+                      <option value="Kerala">Kerala</option>
+                      </select>
+                   </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Country</label>
+                    </td>
+                    <td>
+                      <select style="width:100%;">
+                      <option>Please select the Country</option>
+                      <option value="India">India</option>
+                      <option value="USA">AndhraPradesh</option>
+                      <option value="France">France</option>
+                      <option value="Germany">Germany</option>
+                      <option value="Japan">Japan</option>
+                      </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Phone Number</label>
+                    </td>
+                    <td colspan="10">
+                        <input name="phone" type="tel">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td colspan>
+                        <label>E-Mail</label>
+                    </td>
+                    <td colspan="6">
+                        <input name="mail" placeholder="abc@gmail.com" type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Aadhar Number</label>
+                    </td>
+                    <td colspan="6">
+                        <input name="aadhar_num" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Name in Aadhar</label>
+                    </td>
+                    <td colspan="6">
+                        <input name="aadhar_name" type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Upload Photo</label>
+                    </td>
+                    <td colspan="7">
+                        <input class="upload file" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Upload Signature</label>
+                    </td>
+                    <td colspan="7">
+                        <input class="upload file" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Proof for Identity</label>
+                    </td>
+                    <td>
+                        <input name="proof" type="radio">
+                        <label>Aadhar</label>
+                        <input name="proof" type="radio">
+                        <label>Voter Id</label>
+                        <input name="proof" type="radio">
+                        <label>Ration Card</label>
+                    </td>
+                <tr>
+                    <td>
+                        <input type="checkbox">
+                    </td>
+                    <td>
+                        <label>Proof for date of birth</label>
+                    </td>
+                    <td>
+                        <input name="proof" type="radio">
+                        <label>Aadhar</label>
+                        <input name="proof" type="radio">
+                        <label>Voter Id</label>
+                        <input name="proof" type="radio">
+                        <label>Birth Certificate</label>
+                    </td>
+                    <td rowspan="8">
+                        <input class="upload file" type="file">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4">
+                        <button>SUBMIT</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+     </body>
+</html>

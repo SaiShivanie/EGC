@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:aliceblue;
+}
+.main{
+    background-color: white;
+    width:800px;
+    height:1000px;
+    padding-top:0px;
+    margin-left:25%;
+}
+.main .mainclass1{
+    background-color:#000080;
+    height: 170px;
+}
+.main .mainclass1 .details{
+    padding:2px 14px;
+    margin-left:400px;
+    margin-top:-150px;
+}
+.main .mainclass1 .details h1{
+    color:white;
+    text-align:left;
+    font-size:40px;
+}
+.main .mainclass1 .details p{
+    color:white;
+    font-style: italic;
+    font-size:30px;
+    text-align:left;
+}
+.main .mainclass1 img{
+    width:150px;
+    height:170px;
+    padding:5px;
+    border:0px 0px 100px 100px;
+    margin-left:60px;
+}
+img{
+    overflow-clip-margin:content-box;
+    overflow:clip;
+    border-radius: 50%;
+    object-fit:cover;
+}
+.main .mainclass .main1{
+margin-left:60px;   
+}
+.main .main1 i{
+    margin-left:-9px;
+    margin-top: 6px;
+    display:inline-flex;
+    padding:3px;
+
+}
+.main .mainclass1 .main1 span{
+    display:inline-flex;
+    direction:rtl;
+    margin-right:650px;
+    vertical-align: baseline;
+    
+}
+.main .mainclass .main1{
+   margin-left:30px;
+   margin-top:75px;
+}
+.main .mainclass1 .main1 h2{
+    padding:5px;
+    margin-left:-20px;
+    color:#000080;
+    text-decoration: underline;
+    text-decoration-color:#000080;
+    text-justify:inter-word;
+}
+.main .mainclass1 .main1 li{
+    padding-top:5px;
+    margin-left:-30px;
+    text-justify:inter-word;
+}
+
+.main .mainclass2 .main2 .move{
+    margin-left:250px;
+    margin-top:15px;
+    margin-right: 20px;
+ }
+ .main .mainclass2 .main2 h2{
+     padding:5px;
+     margin-left:150px;
+     color:#000080;
+     text-decoration: underline;
+     text-decoration-color:#000080;
+     text-justify:inter-word;
+ }
+ .main .mainclass2 .main2 li{
+     padding-top:5px;
+     margin-left:150px;
+     text-justify:inter-word;
+ }
+ .main .mainclass2 .main2 p{
+     padding-top:5px;
+     margin-left:175px;
+     text-justify:inter-word;
+ }
+
+ @media (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+    .main .mainclass1 {
+        height: auto;
+        padding: 10px 0;
+    }
+    .main .mainclass1 .details {
+        margin: 10px 0;
+    }
+    .main .mainclass1 .details h1 {
+        font-size: 28px;
+    }
+    .main .mainclass1 .details p {
+        font-size: 18px;
+    }
+    .main .mainclass1 img {
+        width: 80px;
+        height: 80px;
+    }
+    .main .mainclass .main1 {
+        margin-top: 20px;
+        padding: 10px;
+    }
+    .main .mainclass1 .main1 h2 {
+        font-size: 20px;
+    }
+    .main .mainclass2 .main2 .move {
+        margin-left: 0;
+    }
+    .main .mainclass2 .main2 h2 {
+        font-size: 20px;
+    }
+    .main .mainclass2 .main2 li,
+    .main .mainclass2 .main2 p {
+        margin: 0 10px;
+    }
+}
+ 

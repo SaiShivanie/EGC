@@ -1,0 +1,160 @@
+*{
+  margin: 0%;
+  box-sizing: border-box;
+  padding: 0%;
+}
+body{
+    background-color: #ffd372;
+    background-size: cover;
+}
+header{
+    display:block;
+}
+header img{
+    width: 300px;
+    height: 200px;
+}
+header h1{
+    font-size: 6rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #2c3d73;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    letter-spacing: 15px;
+    margin-left: 350px;
+    top:3%;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    color: #2c3d73;
+    text-align: center;
+    margin-top: 80px;
+}
+.obese-description {
+    display:flex; /* Flex container */
+    justify-content: center; /* Center content horizontally */
+    background-color: #ffb7ce;
+    margin-top: 30px;
+    flex-wrap:wrap;
+    border-radius:5px;
+}
+.obese-description p {
+    color: #2c3d73;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    flex-wrap: wrap; /* Ensure wrapping (if needed) */
+    letter-spacing: 3px;
+    margin: 10px; /* Add margin for spacing between paragraphs */
+}
+.obesity-causes-top{
+    display:flex;
+    gap: 20px; /* Adds space between the flex cards */
+    justify-content: center; /* Centers the cards horizontally */
+    margin-top: 20px;
+    padding:10px;
+}
+.cause {
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    background-color: violet;
+    color: white;
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px;
+    width: 30%; /* Each card takes up 30% of the parent container's width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    text-align: center;
+
+}
+
+.cause h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-top:5px;
+    color:white;
+}
+
+.cause p {
+    flex-wrap: wrap;
+    color:#2c3d73; /* Lighter font color for better contrast */
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+.obesity-causes-bottom{
+    display:flex;
+    gap: 20px; /* Adds space between the flex cards */
+    justify-content: center; /* Centers the cards horizontally */
+    margin-top: 20px;
+    padding:10px;
+    margin-top:5px;
+}
+.health-risks {
+    display: flex;
+    justify-content: space-between; /* Positions left and right columns on opposite sides */
+    align-items: center; /* Vertically centers the two columns */
+    margin: 20px auto;
+    width: 80%; /* Adjust width to suit your design */
+}
+
+.health-risks-left,
+.health-risks-right {
+    display: flex;
+    flex-direction: column; /* Stacks risks vertically */
+    gap: 20px; /* Adds spacing between each risk */
+    justify-content: center; /* Vertically centers the risks within each column */
+    width: 40%; /* Each column takes up 40% of the parent container */
+}
+
+.risk {
+    color: #2c3d73;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center; /* Centers the text within each risk block */
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #ffb7ce; /* Optional: Adds background for better visualization */
+    border-radius: 5px; /* Optional: Rounds corners for a neat look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+.measures-top{
+    display:flex;
+    gap: 20px; /* Adds space between the flex cards */
+    justify-content: center; /* Centers the cards horizontally */
+    margin-top: 20px;
+    padding:10px;
+}
+.measure {
+    display: flex;
+    flex-direction: column; /* Align content vertically */
+    color: white;
+    background-color:violet;
+    padding: 15px;
+    width: 30%; /* Each card takes up 30% of the parent container's width */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    text-align: center;
+
+}
+.measure img {
+    width: 100%; /* Ensures the image width adapts to the card's width */
+    height: auto; /* Maintains the aspect ratio of the images */
+    margin-top: 10px; /* Adds spacing between the text and the image */
+    border-radius: 8px; /* Optional: Rounds the edges of the images */
+}
+.measure h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    margin-top:5px;
+    color:white;
+}
+
+.measures-bottom{
+    display:flex;
+    gap: 20px; /* Adds space between the flex cards */
+    justify-content: center; /* Centers the cards horizontally */
+    margin-top: 20px;
+    padding:10px;
+    margin-top:5px;
+}
